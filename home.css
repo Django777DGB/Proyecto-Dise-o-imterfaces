@@ -1,0 +1,145 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  background-image: url("imagenes/space4.png");
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000000;
+  a {
+    color: #fff;
+  }
+}
+
+.search-container input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav button,
+.nav a {
+  margin-left: 10px;
+  background: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.nav a:hover,
+.nav button:hover {
+  background-color: #555;
+}
+
+/* Título principal */
+.main-title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 28px;
+}
+
+/* Noticias destacadas */
+.noticias-destacadas {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.noticias-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.noticia {
+  background: #fffafa;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.noticia img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.noticia p {
+  margin: 10px 0 0;
+}
+
+/* Temas destacados */
+.temas-destacados {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.temas-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tema {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.tema img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.tema p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  h3 {
+    color: #000;
+  }
+  p {
+    color: #000;
+  }
+}
+
+.footer img {
+  width: 80px;
+}
+
+.footer-info,
+.footer-contacto,
+.footer-siguenos {
+  max-width: 200px;
+}
